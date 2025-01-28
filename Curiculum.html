@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum de [Nombre del Alumno]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .profile-image {
+            width: 150px;
+            border-radius: 50%;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table th, table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Ionut Jugariu</h1>
+        <p>Desarrollador en formación</p>
+        <nav>
+            <ul>
+                <li><a href="#informacion">Información Personal</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#formacion">Formación Académica</a></li>
+                <li><a href="#experiencia">Experiencia Profesional</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Información Personal -->
+        <section id="informacion" class="section">
+            <h2>Información Personal</h2>
+            <img src="jose.jpg" alt="Imagen de Perfil" class="profile-image">
+            <p><strong>Nombre:</strong> ionut jugariu </p>
+            <p><strong>Dirección:</strong> Plaza San Vicente, 9, Escalona,Toledo</p>
+            <p><strong>Teléfono:</strong> 999999999</p>
+            <p><strong>Correo Electrónico:</strong> <a href="mailto:[email]">churumbel@correo.com</a></p>
+            <p><strong>Redes Sociales:</LinkedIn | GitHub | Instagram></p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/[linkedin]">LinkedIn</a></li>
+                <li><a href="https://github.com/[github]">GitHub</a></li>
+                <li><a href="https://instagram.com/[instagram]">Instagram</a></li>
+            </ul>
+        </section>
+
+        <!-- Sobre Mí -->
+        <section id="sobre-mi" class="section">
+            <h2>Sobre Mí</h2>
+            <p>Soy un Desarrollador de Software con
+                más de [2 años] de experiencia en el
+                diseño, desarrollo y mantenimiento de
+                aplicaciones web y móviles. Poseo un
+                sólido conocimiento en diversos
+                lenguajes de programación como
+                JavaScript, Python y SQL, así como en
+                el uso de frameworks modernos como
+                React.js, Node.js y Angular. Mi enfoque
+                está en crear soluciones tecnológicas
+                eficientes, escalables y centradas en el
+                usuario, garantizando siempre un alto
+                estándar de calidad.</p>
+        </section>
+
+        <!-- Formación Académica -->
+        <section id="formacion" class="section">
+            <h2>Formación Académica</h2>
+            <ul>
+                <li>Instituto IES Lazarillo de Tormes
+                    Junio de 2012
+                    Grado de Medio de Informatica
+                <!-- Agregar más elementos según sea necesario -->
+            </ul>
+        </section>
+
+        <!-- Experiencia Profesional -->
+        <section id="experiencia" class="section">
+            <h2>Experiencia Profesional</h2>
+            <table>
+                <tr>
+                    <th>Puesto</th>
+                    <th>Empresa</th>
+                    <th>Descripción de Tareas</th>
+                </tr>
+                <tr>
+                    <td>Proyecto Escolar</td>
+                    <td>IES Los Olivos</td>
+                    <td>Creación de una página web para un evento local.</td>
+                </tr>
+                <tr>
+                    <td>Prácticas de Soporte Técnico</td>
+                    <td>Empresa Tech Málaga</td>
+                    <td>Resolución de incidencias y configuración de equipos.</td>
+                </tr>
+                <!-- Agregar más filas según sea necesario -->
+            </table>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades" class="section">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML - Básico/Intermedio</li>
+                <li>Trabajo solitaio</li>
+                <li>Resolución de problemas</li>
+                <!-- Agregar más habilidades según sea necesario -->
+            </ul>
+        </section>
+
+        <!-- Formulario de Contacto -->
+        <section id="contacto" class="section">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 [Nombre del Alumno]. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
